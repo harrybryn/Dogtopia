@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+
+# Environment and local files
+.env
+.env.local
+.env.*.local
+*.log
+
+# Scratch & temporary files
+measure_temp.html
+temp_compare.html
+temp_inspect_stat.html
+crop_logo.cjs
+*.tmp
+
+# Editor directories & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

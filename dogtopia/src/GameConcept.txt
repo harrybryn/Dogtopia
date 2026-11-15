@@ -1,0 +1,117 @@
+PupPal - Game Concept | Page 1
+PupPal
+A Dragon City-Style Dog Habitat, Collection & Breeding Game
+Web Application Concept Document
+Collect, raise, and breed dogs. Each dog lives in a themed habitat island. Care for the dogs
+through tasks, earn rewards, and spend them in the store to expand your park.
+Core Loop
+• Buy a habitat and place dogs in it.
+• Do habitat tasks (feed, bathe, play, and so on).
+• Earn rewards (coins, XP, gems).
+• Spend rewards in the store (food, decorations, habitats, breeding).
+• Level up dogs (Newborn, Puppy, Teen, Adult), then breed adults to discover rarer dogs.
+Habitats
+Each habitat suits certain breeds. A dog in the wrong habitat has lower comfort and earnings, so
+players want a variety of islands.
+Habitat Best for Example breeds
+Desert Oasis Warm-climate dogs Pharaoh Hound, Basenji, Greyhound
+Snowy Peak Thick-coated cold dogs Husky, Malamute, Samoyed
+Forest Meadow Active all-rounders Golden Retriever, Beagle
+Beach Cove Water-loving dogs Labrador, Newfoundland
+Garden Park Small and toy breeds Pug, Pomeranian
+Legendary Realm Epic and Legendary dogs only Cerberus Pup, Galaxy Dog
+Habitat Spotlight: Desert Oasis
+Suited for: dogs that handle warm climates well, with short or thin coats, lean builds, and good heat
+adaptability.
+Layout (compact island, isometric view)
+• A bright blue oasis pond in the center
+• Golden sand dunes around the edges
+• Sandy pathways connecting each area
+• Sandstone rock formations and arches
+• Palm trees and cacti for decoration
+PupPal - Game Concept | Page 2
+• Shaded resting areas with cloth canopies and cushions
+• Small dog shelters, like little clay huts
+• Water stations (stone bowls and fountains)
+• Decor: lanterns, woven rugs, clay pots, little flags, and bone-shaped signs
+• Open space so multiple dogs can walk, play, and explore
+Art style
+Colorful 3D cartoon, rounded shapes, bright warm colors, polished mobile-game look, magical and
+welcoming, with an isometric camera.
+Image Prompt (for an AI image generator or artist)
+A colorful 3D isometric habitat for a mobile dog-collection and breeding simulation game inspired
+by Dragon City. Habitat name: Desert Oasis. A compact floating island with golden sand dunes,
+sandy pathways, sandstone rock formations, palm trees, cacti, and a beautiful blue oasis in the
+center. Include shaded resting areas, small dog shelters, stone water stations, lanterns, woven
+rugs, and cute decorations. Polished 3D cartoon style, rounded shapes, bright warm colors, soft
+shadows, magical and inviting atmosphere. Isometric camera angle, with plenty of open space
+for multiple dogs to walk and explore. Clean game-ready presentation on a simple background.
+Habitat Tasks
+Dogs placed in a habitat generate tasks over time. Tapping a dog opens its current need.
+Task What you do Reward
+Feed Drag food to the dog's bowl XP + coins
+Bath Scrub the dog at the oasis pond Coins + cleanliness bonus
+Play Throw a ball or bone Happiness + coins
+Refill water Tap the water station Small coins
+Rest Send the dog to a shelter Restores energy
+Clean habitat Clear dirt or poop Coins
+Groom Brush the coat Gems (rare)
+Desert Oasis specials
+• Shade Time: the dog needs shade at midday or it gets tired.
+• Oasis Splash: dogs can swim and cool off for a bonus.
+• Treasure Dig: dogs dig up hidden items in the dunes.
+• Daily and weekly quests sit on top, such as "Feed 5 dogs" or "Bathe 3 dogs in Desert Oasis".
+PupPal - Game Concept | Page 3
+Rewards & Store
+Currencies
+• Coins: earned from tasks, used for everyday purchases
+• Gems: rare, earned from quests and events, used for premium items
+• XP: levels up dogs and the player profile
+Store categories
+• Food: basic kibble, premium treats, special meals with extra XP
+• Habitats: unlock new islands
+• Decorations: palm trees, fountains, shelters, themed items
+• Eggs and dogs: basic eggs, or special ones with gems
+• Boosters: speed up breeding and growth
+• Cosmetics: collars, hats, and skins
+• Habitat expansion: more space for more dogs
+Feeding and Evolution
+Feed to gain XP. At milestone levels the dog plays an evolution animation and changes its look.
+Stage Level Notes
+Newborn 1-4 Needs lots of care
+Puppy 5-14 Playful
+Teen 15-29 Earns more coins
+Adult 30+ Can breed, highest coin income
+Breeding
+• Two adult dogs go into the Breeding Den.
+• A timer runs (1 to 12 hours), then an egg hatches.
+• Offspring can come from either parent, or be a surprise hybrid.
+• Dogs from the same habitat type have better odds of rare offspring.
+• Special combos create secret breeds (for example, Husky + Shiba = Snow Fox Shiba).
+• Players discover results through experimenting, with hints but no exact odds.
+Rarity
+Rarity Chance Perk
+Common 60% Basic coin income
+PupPal - Game Concept | Page 4
+Rarity Chance Perk
+Uncommon 25% Patterns
+Rare 10% Bonus income
+Epic 4% Special effects
+Legendary 1% Glowing aura, highest income
+Online (Web Only) Features
+• Accounts and cloud saves, so you can play on any device
+• Visit friends' habitats and help with their tasks for bonus rewards
+• Marketplace for trading dogs
+• Leaderboards and weekly Dog Show events
+• Collection Book of every dog discovered
+Tech Notes
+• Runs in the browser and is mobile-responsive
+• Frontend: React with Phaser.js or PixiJS for the isometric view
+• Backend: Node.js with PostgreSQL or Firebase
+• Timers and income are calculated server-side, so they keep running while players are offline
+Roadmap
+Phase Scope
+1 - MVP One habitat (Desert Oasis), a few dogs, feed and bath tasks, coins, store
+2 Evolution stages, more habitats, daily quests
+3 Breeding, rarity, Collection Book
+4 Social features, marketplace, events
